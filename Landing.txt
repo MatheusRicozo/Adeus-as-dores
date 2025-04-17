@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeus às Dores | Soluções Naturais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f4fdf6;
+      color: #1f2d2b;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #a0e3b2, #5cd1a3);
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .cta {
+      background: #fff;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .cta p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    input, button {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background: #28b487;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #1e9970;
+    }
+    .benefits {
+      background: #eafff3;
+      padding: 3rem 2rem;
+    }
+    .benefits h3 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .benefits ul {
+      max-width: 600px;
+      margin: 0 auto;
+      list-style: none;
+    }
+    .benefits li {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    .benefits li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #28b487;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adeus às Dores</h1>
+    <p>Descubra como eliminar dores naturalmente com métodos comprovados</p>
+  </header>
+
+  <section class="cta">
+    <h2>Baixe o eBook 100% Gratuito</h2>
+    <p>Preencha o formulário abaixo e receba imediatamente no seu e-mail.</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <button type="submit">QUERO ME LIVRAR DAS DORES AGORA</button>
+    </form>
+  </section>
+
+  <section class="benefits">
+    <h3>O que você vai aprender:</h3>
+    <ul>
+      <li>Técnicas naturais para dores nas costas, pescoço e articulações</li>
+      <li>Alimentos e suplementos que reduzem inflamações</li>
+      <li>Exercícios simples para praticar em casa</li>
+      <li>Como evitar dores com pequenas mudanças diárias</li>
+      <li>Rotinas de bem-estar para uma vida sem limitações</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Adeus às Dores | Todos os direitos reservados
+  </footer>
+</body>
+</html>
